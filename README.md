@@ -5,8 +5,11 @@ In this repo I will show the differece in time complexity / Big O between the tw
 In this example we need to create a function that accepts an array and a value, we should be able to know if the value is in the array or not.
 
 ## The Solution
-We will iterate the array and check if the arr[i] is equal to the value as we are looping, if we find it we will return the index.
-*We will solve this problem with 2 different approaches*
+We will solve this problem with 2 different approaches : - 
+
+**Linear Search** Iterate the array and compare the value to the items at each index *O(n)*
+
+**Binary Search** Split the array and compare the mid point to the value *O(log n)*
 
 ### First Approach Linear Search
 - Create a function that accepts an array and a value
