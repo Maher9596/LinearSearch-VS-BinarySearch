@@ -1,5 +1,5 @@
 # LinearSearch-VS-BinarySearch
-In this repo I will show the in time complexity / Big O between the two searching algorithms.
+In this repo I will show the differece in time complexity / Big O between the two searching algorithms.
 
 ## The problem
 In this example we need to create a function that accepts an array and a value, we should be able to know if the value is in the array or not.
