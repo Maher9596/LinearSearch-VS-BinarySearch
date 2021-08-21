@@ -31,7 +31,7 @@ as you will have to loop through the whole array in the worst case when the valu
 *Repeat this process as long as the value is not found and start point is smaller than end point*
 - Finally if the value is found return the index
 
-In this implementation we are making use of the "Divide and Conqure" pattern to find the value, unlike the previous approach we won't be comparing each index to the value,
+In this implementation we are making use of the "Divide and Conquer" pattern to find the value, unlike the previous approach we won't be comparing each index to the value,
 We will check if the mid point is equal to the value.
 So in an array of 8 numbers we will only do 3 checks This would give us a better time complexity of O(log n).
 The rate of operation growth would be O(log n) which is much better than O(n). *Refere to* [BigO chart](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40sadia.islam.badhon%2Fbig-o-notation-into-overview-f83bc792e344&psig=AOvVaw2dR7wFvV_xn-mlj4vUNDyr&ust=1629551301653000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICizefVv_ICFQAAAAAdAAAAABAU).
