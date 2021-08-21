@@ -35,4 +35,5 @@ In this implementation we are making use of the "Divide and Conqure" pattern to 
 We will check if the mid point is equal to the value.
 So in an array of 8 numbers we will only do 3 checks This would give us a better time complexity of O(log n).
 The rate of operation growth would be O(log n) which is much better than O(n). *Refere to* [BigO chart](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40sadia.islam.badhon%2Fbig-o-notation-into-overview-f83bc792e344&psig=AOvVaw2dR7wFvV_xn-mlj4vUNDyr&ust=1629551301653000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICizefVv_ICFQAAAAAdAAAAABAU).
+
 **See main.js to see the implementation of both approaches in JavaScript**
