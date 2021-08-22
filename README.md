@@ -7,7 +7,7 @@ In this example we need to create a function that accepts an array and a value o
 ## The Solution
 We will solve this problem with 2 different approaches : - 
 
-**Linear Search** Iterate the array and compare the value to the items at each index *O(n)*
+**Linear Search** Iterate thorugh the array and compare the value to the items at each index *O(n)*
 
 **Binary Search** Split the array and compare the mid point to the value *O(log n)*
 
